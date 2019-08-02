@@ -7,7 +7,7 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node tests/test.js | tap-spec"
   },
   "author": "",
   "license": "ISC",
@@ -17,8 +17,12 @@
   "devDependencies": {
     "eslint": "^6.1.0",
     "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-config-google": "^0.13.0",
     "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-react": "^7.14.3",
     "eslint-plugin-vue": "^5.2.3",
-    "request": "^2.88.0"
+    "request": "^2.88.0",
+    "tap-spec": "^5.0.0",
+    "tape": "^4.11.0"
   }
 }
