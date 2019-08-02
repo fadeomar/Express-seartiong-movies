@@ -1,7 +1,3 @@
 language: node_js
 node_js:
-<<<<<<< HEAD
   - "lts/*"
-=======
-  - "lts/*"
->>>>>>> b67c04420e33144a1bf317661306116bdca6700e
